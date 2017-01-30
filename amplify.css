@@ -1,0 +1,11 @@
+.amplify_action_link::before {
+  background-image: url(/rsrc.php/v3/yF/r/iwLw_BSi_gm.png);
+  background-repeat: no-repeat;
+  background-size: 64px 146px;
+  background-position: -49px -23px;
+  content: '';
+  display: inline-block;
+  height: 14px;
+  margin: 0 6px -3px 0;
+  width: 14px;
+}

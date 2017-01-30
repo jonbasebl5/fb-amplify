@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook Amplify",
+  "description": "Re-shares someone's post to more people",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "css": ["amplify.css"],
+      "js": ["jquery.min.js", "amplify.js"]
+    }
+  ]
+}
